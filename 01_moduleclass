@@ -1,0 +1,25 @@
+import random
+from faker import Faker
+import math
+f=Faker()
+class randomnumber:
+    def randomnum(self,start,end):
+        return random.randint(start,end) 
+h=randomnumber()
+class randomnames:
+    def random_name(self,n):
+        for i in range(n):
+            print(f.name()) 
+r=randomnames()
+class dommylist:
+    def Dommylist(self,l):
+            print(l[3])
+li=dommylist()
+class constant:
+     def universal_constant(self):
+          print(math.pi)
+          print(math.e)
+          print(math.inf)
+          print(math.tau)
+          print(math.nan)
+c=constant()
