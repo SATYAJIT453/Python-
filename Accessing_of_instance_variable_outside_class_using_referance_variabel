@@ -1,0 +1,10 @@
+class Student:
+def __init__(self,name,age,address):
+    self.name=name
+    self.age=age
+    self.address=address
+
+m=Student('satyajit',22, 'puri')
+print(f'name is: {m.name}')
+print(f'age is: (m.age}')
+print(f'address is : {m.address}')
