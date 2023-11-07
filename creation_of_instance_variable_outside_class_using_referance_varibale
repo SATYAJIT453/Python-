@@ -1,0 +1,7 @@
+class Student:
+    pass
+m=Student()
+m.name='satyajit'
+m.age-22
+m.address= 'bbsr'
+print(m.__dict__)
