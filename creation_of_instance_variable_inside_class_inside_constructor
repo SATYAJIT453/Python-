@@ -1,1 +1,9 @@
-# Python-
+class student:
+    def __init__(self,name,age,address):
+        self.name=name
+        self.age=age
+        self.address=address
+        
+        
+m=student('satyajit',22,'bbsr')
+print(m.__dict__)
