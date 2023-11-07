@@ -1,0 +1,12 @@
+class Student:
+def __init__(self,name,age,address):
+    self.name=name
+    self.age=age
+    self.address=address
+def printdetails(self):
+    print(f'name is : {self.name}')
+    print(f'age is : {self.age)')
+    print(f'address is : {self.address}')
+
+m=Student("satyajit",22,"bbsr")
+m.printdetails()
