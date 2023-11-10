@@ -1,0 +1,16 @@
+class Student:
+    def check(self):
+        pass
+    @staticmethod
+    def sm(phy,che,math):
+        print('BEFORE DELETION')
+        print(f'phy is :{phy}')
+        print(f'che is :{che}')
+        print(f'math is :{math}')
+        print('AFTER DELETION')
+        del math
+        print(f'phy is :{phy}')
+        print(f'che is :{che}')
+        print(f'math is :{math}')
+s1=Student()
+s1.sm(88,84,85)
