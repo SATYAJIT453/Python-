@@ -1,0 +1,5 @@
+def cal(phy,che,math):
+    print(f'avg mark is : {(phy+che+math)/3}')
+    
+    
+cal(91,85,95)
