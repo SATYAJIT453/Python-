@@ -1,0 +1,5 @@
+class Student:
+    def __init__(self,phy,che,math):
+        print(f'avg mark is :{(phy+che+math)/3}')
+        
+s1=Student(77,93,75)
