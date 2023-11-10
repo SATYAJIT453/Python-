@@ -1,0 +1,15 @@
+class Student:
+    def check(self):
+        pass
+    @classmethod
+    def cm(cls,phy,che,math):
+        print('BEFORE MODIFICATION')
+        print(f'avg is  is :{(phy+che+math)/3}')
+        print('AFTER MODIFICATION')
+        phy=90
+        che=86
+        math=88
+        print(f'avg is  is :{(phy+che+math)/3}')
+        
+s1=Student()
+s1.cm(77,68,67)
