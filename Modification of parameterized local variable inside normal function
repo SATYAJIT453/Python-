@@ -1,0 +1,10 @@
+def cal(phy,che,math):
+    print('BEFORE MODIFICATION')
+    print(f'avg is  is :{(phy+che+math)/3}')
+    print('AFTER MODIFICATION')
+    phy=90
+    che=89
+    math=88
+    print(f'avg is  is :{(phy+che+math)/3}')
+        
+cal(76,84,77)
