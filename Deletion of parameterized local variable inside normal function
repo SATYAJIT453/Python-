@@ -1,0 +1,11 @@
+def check(phy,che,math):
+    print(f'BEFORE DELETION')
+    print(f'phy is :{phy}')
+    print(f'che is :{che}')
+    print(f'math is :{math}')
+    print('AFTER DELETION')
+    del math
+    print(f'phy is :{phy}')
+    print(f'che is :{che}')
+    print(f'math is :{math}')
+check(88,84,85)
