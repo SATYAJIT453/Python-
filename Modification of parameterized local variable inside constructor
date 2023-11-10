@@ -1,0 +1,14 @@
+class Student:
+    def __init__(self,phy,che,math):
+        print('BEFORE MODIFICATION')
+        print(f'phy is :{phy}')
+        print(f'che is :{che}')
+        print(f'math is :{math}')
+        print('AFTER MODIFICATION')
+        phy=90
+        che=86
+        math=88
+        print(f'phy is :{phy}')
+        print(f'che is :{che}')
+        print(f'math is :{math}')
+s1=Student(77,93,75)
