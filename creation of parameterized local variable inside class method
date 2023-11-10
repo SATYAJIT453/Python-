@@ -1,0 +1,10 @@
+class Student:
+    def create(self):
+        pass
+
+    @classmethod
+    def cm(cls,phy,che,math):
+        print(f'avg mark is : {(phy+che+math)/3}')
+        
+s1=Student()
+s1.cm(88,90,71)
