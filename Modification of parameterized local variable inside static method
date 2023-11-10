@@ -1,0 +1,15 @@
+class Student:
+    def check(self):
+        pass
+    @staticmethod
+    def sm(phy,che,math):
+        print('BEFORE MODIFICATION')
+        print(f'avg is  is :{(phy+che+math)/3}')
+        print('AFTER MODIFICATION')
+        phy=90
+        che=89
+        math=88
+        print(f'avg is  is :{(phy+che+math)/3}')
+        
+s1=Student()
+s1.sm(77,88,97)
