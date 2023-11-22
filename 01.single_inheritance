@@ -1,0 +1,12 @@
+class A:
+    def method1(self):
+        print('method1')
+        
+class B:
+    def method2(self):
+        print('method2')
+        
+s1=A()
+s1.method1()
+p1=B()
+p1.method2()
